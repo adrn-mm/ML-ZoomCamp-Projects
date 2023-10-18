@@ -4,6 +4,9 @@ FROM python:3.8.12-slim
 # Install pipenv library in Docker 
 RUN python -m pip install --upgrade pip
 RUN pip install pipenv
+RUN pip install pandas
+RUN pip install scipy
+RUN pip install scikit-learn
 RUN pip install Flask
 RUN pip install pipenv gunicorn
 

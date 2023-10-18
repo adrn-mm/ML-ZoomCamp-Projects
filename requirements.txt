@@ -6,3 +6,6 @@ requests
 pipenv
 scikit-learn
 missingno
+Flask
+gunicorn
+waitress
