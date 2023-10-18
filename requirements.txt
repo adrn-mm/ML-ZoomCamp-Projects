@@ -9,3 +9,4 @@ missingno
 Flask
 gunicorn
 waitress
+xgboost
